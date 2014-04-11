@@ -10,5 +10,6 @@
     ],
     "paths": [
         "lib"
-    ]
+    ],
+    "main":"index.js"
 }
