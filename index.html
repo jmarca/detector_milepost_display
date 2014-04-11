@@ -7,28 +7,27 @@
   </head>
   <body>
     <h2>Input detector id</h2>
-<form class="form-inline" role="form" id="formDetector">
-  <div class="form-group">
-    <label class="sr-only" for="inputDetector">detector id</label>
-    <input type="detector" class="form-control" id="inputDetector" placeholder="Enter detector">
-  </div>
-  <button type="submit" class="btn btn-default">Get data</button>
-</form>
-      <div class='plots'>
-        <div id="charts">
-          <div id="date-chart" class="bar chart">
-            <div class="title">Effective section length, from upstream
-            to downstream detector, for each day with valid data</div>
+    <form class="form-inline" role="form" id="formDetector">
+      <div class="form-group">
+        <label class="sr-only" for="inputDetector">detector id</label>
+        <input type="detector" class="form-control" id="inputDetector" placeholder="Enter detector">
+      </div>
+      <button type="submit" class="btn btn-default">Get data</button>
+    </form>
+    <div class='plots'>
+        <div id="date-chart" class="bar chart">
+          <div class="title">Effective section length, from upstream
+            to downstream detector, for each day with valid data
           </div>
         </div>
-      </div>
     </div>
 
 
-    <script src="build/build.js"></script>
-    <script>
-      var display = require('display')
-      display.formFetch('#formDetector','#inputDetector','.chart')
-    </script>
-  </body>
+
+<script src="build/build.js"></script>
+<script>
+  var display = require('display')
+  display.formFetch('#formDetector','#inputDetector','.chart')
+</script>
+</body>
 </html>
