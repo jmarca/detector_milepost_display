@@ -1,0 +1,27 @@
+{
+  "name": "barchart",
+  "repo": "jmarca/barchart",
+  "description": "plot hourly detector data in a barchart, using d3, etc",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "mbostock/d3": "*",
+    "lodash/lodash": "*",
+    "visionmedia/superagent": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "handle_data.js",
+  "paths": [
+    ".."
+  ],
+  "scripts": [
+      "sample.js",
+    "handle_data.js",
+    "barchart.js"
+  ],
+  "styles": [
+    "barchart.css"
+  ],
+  "remotes": []
+}

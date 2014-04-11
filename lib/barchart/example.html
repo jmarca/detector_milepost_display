@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test get area data</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="build/build.css">
+  </head>
+  <body>
+    <div class=container>
+
+      <nav class="navbar navbar-default" role="navigation">
+        <ul class="nav navbar-nav navbar-left nav-pills options"></ul>
+        <ul class="nav navbar-nav navbar-right download"></ul>
+      </nav>
+
+      <div class='limits'>
+      </div>
+      <div class='plots'>
+        <div id="charts">
+          <div id="date-chart" class="bar chart">
+            <div class="title">Count of observations (road type X hours) each day</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="build/build.js"></script>
+    <script>
+      var data_handler = require('barchart');
+      var mydoc = require('barchart/sample.js');
+      data_handler(mydoc)
+    </script>
+  </body>
+</html>

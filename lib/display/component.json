@@ -1,0 +1,24 @@
+{
+  "name": "display",
+  "description": "display and plot detector data, using d3, etc",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "mbostock/d3": "*",
+    "component/dom":"*",
+    "visionmedia/superagent": "*"
+  },
+    "main":"display.js",
+  "license": "MIT",
+  "local": [
+    "barchart"
+  ],
+  "scripts": [
+    "display.js",
+    "fetch.js"
+  ],
+  "styles": [
+    "detector_display.css"
+  ],
+  "remotes": []
+}

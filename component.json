@@ -1,0 +1,14 @@
+{
+    "name": "detector_milepost_display",
+    "repo": "jmarca/detector_milepost_display",
+    "description": "display and plot detector data, using d3, etc",
+    "version": "0.0.1",
+    "keywords": [],
+    "license": "MIT",
+    "local": [
+        "display"
+    ],
+    "paths": [
+        "lib"
+    ]
+}
