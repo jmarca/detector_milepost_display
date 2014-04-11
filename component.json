@@ -6,7 +6,8 @@
     "keywords": [],
     "license": "MIT",
     "local": [
-        "display"
+        "display",
+        "barchart"
     ],
     "paths": [
         "lib"
